@@ -15,7 +15,6 @@ express = require('express');
 ghost = require('./core');
 errors = require('./core/server/errors');
 
-// Create our parent express app instance.
 parentApp = express();
 
 ghost().then(function (ghostServer) {
